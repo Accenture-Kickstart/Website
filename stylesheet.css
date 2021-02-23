@@ -1,8 +1,40 @@
-.listblock ul li a {
-    padding: 5px 30px 5px 10px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
     display: block;
-}
-
-.listblock ul li a:hover {
-    background: transparent url('../img/basket.png') no-repeat 3px 170px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  li {
+      float:center;
+      
+  }
 }
